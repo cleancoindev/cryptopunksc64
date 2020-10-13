@@ -81,7 +81,7 @@ Here is an example of a generated BASIC program
 55 if i <> 0 then goto 50
 60 goto 20
 70 print "cryptopunks c64 mmxx";
-100 data 3, 81,run 14, 5, 3, 21, 0, 1
+100 data 3, 81, 14, 5, 3, 21, 0, 1
 110 data 3, 20, 14, 2, 7, 3, 2, 2
 120 data 3, 16, 14, 3, 7, 3, 2, 3
 130 data 3, 14, 14, 3, 7, 5, 2, 3
