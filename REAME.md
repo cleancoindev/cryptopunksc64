@@ -1,9 +1,24 @@
 Cryptopunks on the Commodore 64
 ========
 
+
+
 png to C64 BASIC
-======
-This is a Go program will read a 24x24 pixel png image and output a BASIC program 
+-------
+This is a Go program will read a 24x24 pixel png image and output a BASIC program that will render it.
+For example, use this program to convert your favorite "cryptopunk" in to a basic program, that when run, will 
+display your punk to be admired in true 8-bit glory!
+
+(More about the "Cryptopunks" [here](https://www.larvalabs.com/cryptopunks))
+
+Screenshots
+=====
+
+
+![loading and running](screen1.png)
+
+
+![result](screen2.png)
 
 Technical details
 =======
@@ -11,7 +26,7 @@ Technical details
 The C64 only allows for 16 colors.
 
 The CIEDE2000 algorithm approximates each pixel to a C64 color, 
-thanks to the [co-colorful](https://github.com/lucasb-eyer/go-colorful) library
+thanks to the [co-colorful](https://github.com/lucasb-eyer/go-colorful) library.
 
 Did you know: The C64 used a color palette that may seem "washed-out"? That's because 
 these colors displayed well on TVs/CRTs of the day. The analog "saturation" dial was used to fine tune them! 
